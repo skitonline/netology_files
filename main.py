@@ -74,4 +74,4 @@ def unite_files(*paths):
         result_file.write(result_string)
 
 
-print(unite_files('1.txt', '2.txt', '3.txt'))
+unite_files('1.txt', '2.txt', '3.txt')
